@@ -17,7 +17,7 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            background: url('https://picpost.postjung.com/data/263/263367-qgdu44-0.n.jpg') center/cover no-repeat;
+            background: url('https://img5.pic.in.th/file/secure-sv1/1463.jpg_wh1200.jpg') center/cover no-repeat;
         }
         .navbar {
             width: 100%;
@@ -258,7 +258,7 @@
                 <button onclick="flipCard()">กรุณากดปุ่ม</button>
             </div>
             <div class="back">
-                <h3>ลงนามถวายพระพร</h3>
+                <h3>ระบบ "ส่งความสุขด้วยกำลังใจ"</h3>
                 <select id="messageType" onchange="updateBlessingOptions()">
                     <option value="royal">ลงนามถวายพระพร</option>
                     <option value="festival">อวยพรตามเทศกาล</option>
@@ -365,7 +365,7 @@
                 hour: '2-digit',
                 minute: '2-digit',
                 second: '2-digit',
-                hour12: false
+                hour12: true
             };
             const dateTimeString = now.toLocaleString('th-TH', options)
                 .replace(' ', ' ')
